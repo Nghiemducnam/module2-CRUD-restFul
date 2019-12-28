@@ -13,7 +13,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 
 
 import java.util.List;
-
+@CrossOrigin(maxAge = 3600)
 @RestController
 public class CustomerController {
     @Autowired
